@@ -7,13 +7,15 @@ before_build:
 build:
   verbosity: minimal
   publish_wap: true
-  
+
+artifacts:
+  - path: .\db.dacpac
+    name: db
+
 deploy:
   - provider: Environment
     name: LS
 
 services:
   - mssql2016
-  
-before_package:
-  - cmd: dir
+ 
