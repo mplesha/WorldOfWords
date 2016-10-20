@@ -14,3 +14,6 @@ deploy:
 
 services:
   - mssql2016
+  
+before_package:
+  - cmd: dir
