@@ -1,0 +1,12 @@
+# demo
+configuration: Release
+
+before_build:
+  - nuget restore
+
+build:
+  verbosity: minimal
+  publish_wap: true
+  
+services:
+  - mssql2016
