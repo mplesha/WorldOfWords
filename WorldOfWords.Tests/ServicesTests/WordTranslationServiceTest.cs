@@ -523,7 +523,8 @@ namespace WorldOfWords.Tests.ServicesTests
             string synon = "phrase";
             int originLangId = 1;
             int translLangId = 4;
-
+            
+            System.Thearding.Thread.Sleep(5);
             Word translation = new Word()
             {
                 Id = 2,
