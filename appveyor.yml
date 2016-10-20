@@ -8,5 +8,8 @@ build:
   verbosity: minimal
   publish_wap: true
   
+deploy:
+  provider: WebDeploy
+
 services:
   - mssql2016
