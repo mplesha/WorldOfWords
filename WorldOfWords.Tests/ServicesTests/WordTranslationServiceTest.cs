@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 using Moq;
 using NUnit.Framework;
 using WorldOfWords.Infrastructure.Data.EF.Factory;
@@ -524,7 +525,7 @@ namespace WorldOfWords.Tests.ServicesTests
             int originLangId = 1;
             int translLangId = 4;
             
-            System.Thearding.Thread.Sleep(5);
+            Thread.Sleep(5);
             Word translation = new Word()
             {
                 Id = 2,
