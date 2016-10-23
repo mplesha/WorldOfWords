@@ -8,6 +8,10 @@ build:
   verbosity: minimal
   publish_wap: true
 
+artifacts:
+  - path: .\db.dacpac
+    name: db
+
 services:
   - mssql2016
  
