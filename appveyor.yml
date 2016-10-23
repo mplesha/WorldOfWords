@@ -8,16 +8,6 @@ build:
   verbosity: minimal
   publish_wap: true
 
-artifacts:
-  - path: .\db.dacpac
-    name: db
-
-deploy:
-  - provider: Environment
-    name: LS
-  - provider: Environment
-    name: DB
-
 services:
   - mssql2016
  
