@@ -1,5 +1,5 @@
 World of Words
-Version 3.0
+Version 3.0.
 
 A word learninig tool created by Softserve ITA for Softserve Language School.
 
